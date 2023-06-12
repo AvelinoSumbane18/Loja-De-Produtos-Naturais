@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+  
+    
+    
+    header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px 5%;
+    }
+    
+    .Logo{
+        display: flex;
+        gap: 10px;
+        position: relative;
+        top: 10%;
+    }
+    nav{
+        display: flex;
+        gap: 35px;
+    }
+    section img{
+        width: 100%;
+        height: 302px;
+    }
+    .Text-Promocao{
+        display:flex ;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px 5%;
+        font-weight: 400;
+    }
+    main{
+        display: flex;
+        justify-content: space-between;
+        padding: 30px 5%;
+        margin-bottom: 10px;
+    }
+    .column{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+    .Produtos{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .Produtos img{
+        width: 350px;
+        height: 350px;
+        object-fit: cover;
+    
+    }
+    span #Dolar{
+        color:#35AD48;
+    }
+    section{
+        display: flex;
+        justify-content: space-between;
+       
+
+
+    }
+    footer{
+        background-color: #EEEEEE;
+        height: 25vh;
+        padding: 20px 5%;
+        border-top: 1px solid black;
+    }
+     .Footer-Top--Left{
+        display: flex;
+        flex-direction: column;
+    }
+    div .FootertopRight{
+        background-color: black;
+    }
+    
+    
